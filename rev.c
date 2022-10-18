@@ -7,7 +7,7 @@
  * format_r - reverse a string passed in
  * @valist: argument passed in
  * @buffer: values stored
- * @index: returns pointer to index
+ * @index: returns the pointer to index
  */
 
 void format_r(va_list valist, char *buffer, int *index)
