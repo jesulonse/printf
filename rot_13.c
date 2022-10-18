@@ -5,7 +5,7 @@
 
 /**
  * format_R - function that converts a string into rot13
- * @valist: argument passed
+ * @valist: argument passed in
  * @buffer: values stored
  * @index: tracks index position
  */
