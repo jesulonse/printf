@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdarg.h>
 
 /**
  * format_r - reverse a string passed in
