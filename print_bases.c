@@ -4,7 +4,7 @@
 #include <stdarg.h>
 
 /**
- * print_hex - prints a number in hexadecimal base
+ * print_hex - prints num in hexadecimal base
  * @l: va_list arg
  * @f: pointer to struct flags
  * Return: number of char
@@ -23,9 +23,9 @@ int print_hex(va_list l, flags_t *f)
 }
 
 /**
- * print_hex_big - prints a number in hexadecimal base
- * @l: va_list arg 
- * @f: pointer to the struct flags
+ * print_hex_big - print num in hexadecimal base
+ * @l: va_list for arg
+ * @f: pointer to struct flags
  * Return: number of char
  */
 
@@ -42,9 +42,9 @@ int print_hex_big(va_list l, flags_t *f)
 }
 
 /**
- * print_binary - prints int in base 2
- * @l: va_list arg for _printf
- * @f: pointer to struc flags
+ * print_binary - prints a num in base 2
+ * @l: va_list arg
+ * @f: pointer to struct flags
  * Return: number of char
  */
 
@@ -58,10 +58,10 @@ int print_binary(va_list l, flags_t *f)
 }
 
 /**
- * print_octal - prints a int in base 8
+ * print_octal - prints num in base 8
  * @l: va_list arg
  * @f: pointer to struct flags
- * Return: the num of char
+ * Return: number of char
  */
 
 int print_octal(va_list l, flags_t *f)
